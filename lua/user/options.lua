@@ -12,8 +12,5 @@ vim.opt.wrap = true
 -- Change Cursor to Block During Insert Mode
 vim.opt.guicursor = "i:block"
 
--- Disable Inlay Hints by Default 
-vim.g.hints_enabled = false
-
 -- Add Recursive Search to Path
 vim.cmd("set path+=**")
